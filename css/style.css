@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+header{
+display: flex;
+background-color: #3B8686;
+justify-content: space-between;
+}
+ul{
+    display: flex;
+    margin: 0 7vw 0 0;
+}
+.nature img {
+  padding: 3vw 2vw 3vw 7vw;
+}
+li{
+    margin: 3vw 2vw 3vw 2vw;
+    
+}
+html {
+    font-size: calc(10px + 0.390625vw);
+    font-family: "Open Sans", sans-serif;
+}
+span.atual{
+background-color: rgba(255, 255, 255, 0.2 );
+border-radius: 20px;
+padding: 0.5vw 2vw 0.5vw 2vw;
+}
+section.banner h2{
+    font-size: 3rem;
+    color: white;
+    line-height: 3.7vw;
+    width: 30%;
+}
+section.banner{
+    padding: 30vw 0 5vw 7vw;
+    background:linear-gradient(rgba(128, 189, 154, 0.2), rgba(128, 189, 154, 0.2)), url(../src/back-banner.png) no-repeat center center;
+    background-size: cover;
+}
+span.viva{
+    background-color: rgba(58, 255, 255, 0.2);
+    padding: 1vw 1vw 0 1vw;
+
+}
+span.unica{
+    background-color: rgba(58, 255, 255, 0.2);
+    padding: 0 1vw 0 1vw;
+}
