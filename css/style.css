@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-a{
+header a{
     text-decoration: none;
     color: #ffffff;
 }
@@ -8,18 +8,18 @@ display: flex;
 background-color: #3B8686;
 justify-content: space-between;
 }
-ul{
+header ul{
     display: flex;
     margin: 0 7vw 0 0;
 }
 .nature img {
   padding: 3vw 2vw 3vw 7vw;
 }
-li{
+header li{
     margin: 3vw 2vw 3vw 2vw;
     
 }
-html {
+html{
     font-size: calc(10px + 0.390625vw);
     font-family: "Open Sans", sans-serif;
 }
@@ -48,3 +48,119 @@ span.unica{
     background-color: rgba(58, 255, 255, 0.2);
     padding: 0 1vw 0 1vw;
 }
+section.segunda a{
+    text-decoration: none;
+    background-color: #3B8686;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    margin: 1vw 0 0 0;
+}
+section.segunda ul{
+display: flex;
+text-align: center;
+justify-content: space-between;
+}
+section.segunda{
+    padding: 3vw 10vw 3vw 10vw;
+}
+section.segunda ul li{
+    width: 25%;
+}
+section.segunda ul li span{
+    font-size: 3rem;
+    color: #3B8686;
+}
+section.segunda ul li h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 20px 0px 20px 0px;
+}
+section.segunda p{
+    color: #747474;
+}
+section.caiaque{
+    background:linear-gradient(rgba(128, 189, 154, 0.5), rgba(128, 189, 154, 0.5)), url(../src/back-numeros.png) no-repeat center center;
+    background-size: cover;
+}
+section.caiaque ul{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+section.caiaque ul li{
+    color: white;
+    font-size: 2.5rem;
+    width: 35%;
+    font-weight: 500;
+    padding: 5vw 0 4vw 0;
+}
+section.caiaque ul li span{
+    font-size: 4rem;
+}
+section.possibilidades{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 5vw 15vw 5vw 15vw;
+}
+section.possibilidades h3{
+    font-size: 2.3rem;
+    text-align: left;
+    color: #0B486B;
+    margin: 0 0 2vw 0;
+}
+section.possibilidades p{
+    text-align: left;
+    color: #747474;
+    line-height: 130%;
+}
+section.possibilidades p.botao{
+    margin: 2vw 0 0 0;
+}
+section.possibilidades a{
+    text-decoration: none;
+    color: white;
+    background-color: #0B486B;
+    padding: 10px 15px 10px 15px;
+    margin: 0 1vw 0 0;
+    font-weight: 600;
+}
+footer{
+    background-color: #3B8686;
+    color: white;
+    display: flex;
+    text-align: center;
+    padding: 3vw 8vw 1vw 8vw;
+    justify-content: space-between;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer ul.direitos{
+    display: flex;
+}
+footer ul.direitos span{
+    font-size: 2vw;
+    padding: 0 1vw 2vw 0;
+}
+footer h3{
+    font-weight: 600;
+    margin: 0 0 1vw 0;
+    text-align: left;
+}
+.contato p{
+    margin: 1vw 0 0 0;
+    text-align: left;
+}
+.navegar ul li{
+    margin: 0 0 1vw 0;
+    
+}
+.navegar ul{
+    text-align: right;
+}
+
+
+
